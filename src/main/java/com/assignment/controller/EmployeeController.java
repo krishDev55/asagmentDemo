@@ -183,6 +183,10 @@ public class EmployeeController {
 
 		}
 	
+		@GetMapping("/test")
+		public String test() {
+			return "this is Test Url ........";
+		}
 	
 	
 }
